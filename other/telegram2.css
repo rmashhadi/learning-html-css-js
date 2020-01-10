@@ -1,0 +1,64 @@
+body{
+    overflow: hidden;
+}
+.container{
+    background-color: red;
+    width: 100vw;
+    height: 100vh;
+    border: solid;
+    display: flex;
+    justify-content: flex-start;
+    
+    
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    width: 38vw;
+    max-width: 400px;
+    background-color: lightseagreen;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    flex-grow: 1;
+    background-color: rgb(178, 32, 159);
+}
+.right-top{
+    height: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background-color: mediumaquamarine;
+}
+.current-chat{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    background-color: tomato;
+}
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    background-color: yellow;
+}
+.right-bottom{
+    display: flex;
+    justify-content: space-between;
+    background-color: slategrey;
+    justify-content: center;
+    height: 46px;
+}
+.right-bottom>input{
+    flex-grow: 1;
+}
+.right-middle{
+    flex-grow: 1;
+    background-color: brown;
+}

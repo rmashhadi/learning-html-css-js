@@ -1,0 +1,21 @@
+.dad{
+    width: 50vw;
+    background-color: teal;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+.message{
+    background-color: tomato;
+    width: 50px;
+    
+    
+}
+.message>span{
+    
+    
+    overflow-wrap: break-word;
+
+}
